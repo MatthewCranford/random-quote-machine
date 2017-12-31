@@ -1,0 +1,204 @@
+/* ================= 
+  ELEMENT STYLES 
+====================*/
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242222;
+  background: #242222;
+  padding: 10px;
+  transition: background-color .5s ease-in;
+}
+
+footer {
+  text-align: center;
+  margin-top: .5rem;
+}
+
+a:link,
+a:link:hover {
+  text-decoration: none;
+}
+
+/* ================= 
+  CLASS STYLES 
+====================*/
+
+
+
+/* ================= 
+  ID STYLES 
+====================*/
+
+#quote-box {
+  background-color: white;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 35px 40px 20px 40px;
+  margin: auto;
+  margin-top: 5rem;
+  width: 100%;
+  box-shadow: 4px 4px 10px #242222;
+}
+
+#quote-icon {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#quote-text {
+  text-align: center;
+  display: table;
+  font-size: 2rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#quote-author {
+  color: #242222;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+#tweet-button-container {
+  text-align: center;
+}
+
+#tweet-button {
+  background-color: white;
+  cursor: pointer;
+  font-size: 3.0rem;
+  margin-top: 2rem;
+  margin-right: .3rem; 
+  color: #242222;
+  transition: color .5s ease-in;
+}
+
+  #tweet-button:hover {
+    filter: brightness(80%)
+  }
+
+  #tweet-button:active {
+    filter: brightness(70%)
+  }
+
+#quote-button-container {
+  text-align: center;
+}
+
+#quote-button {
+  position: relative;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-top: 1.7rem;
+  padding: 5px 10px;
+  border: 1px solid #242222;
+  border-radius: 3px;
+  color:white;
+  background-color: #242222;
+  box-shadow: 2px 2px 8px rgb(53, 53, 53);
+  transition: all .5s ease-in;
+  transition-property: background-color, border-color ;
+}
+
+  #quote-button:hover {
+    filter: brightness(80%);
+  }
+
+  #quote-button:active {
+    filter: brightness(70%);
+    top: 2px;
+    left: 2px;
+    box-shadow: 1px 1px 2px rgb(53, 53, 53);
+  }
+
+#coded-by {
+ text-align: center;
+ font-size: .8rem;
+ color: white;
+}
+
+#code-author {
+  color: white;
+}
+
+  #code-author:hover {
+  filter: brightness(80%);
+  }
+
+  #code-author:active {
+  filter: brightness(70%);
+  }
+
+/* ================= 
+  MEDIA QUERIES 
+====================*/
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  #quote-box {
+    width: 70%;
+  }
+
+  #quote-text {
+    font-size: 1.7rem;
+  }
+
+  #tweet-button {
+    font-size: 2.5rem;
+    
+  }
+
+  #quote-button {
+    font-size: 1rem;
+  }
+
+  #quote-author {
+    text-align: right;
+    font-size: 1rem;
+  } 
+
+  #tweet-button-container {
+    text-align: left;
+  }
+
+  #quote-button-container {
+    text-align: right;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+  #quote-box {
+    width: 55%;
+  }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+  #quote-box {
+    width: 35%;
+  }
+
+ } 
+
